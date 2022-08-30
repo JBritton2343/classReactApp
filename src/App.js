@@ -5,10 +5,12 @@ import Card from "./Components/Card";
 import NavBar from "./Components/NavBar"
 
 const App=(props)=>{
-    
-    < Card cardText="A simple line of text" />;
-    <Card cardText="More simple text" />;
-    <Card cardText="So easy even a caveman can do it" />;
+    <NavBar />;
+    <Jumbotron />;
+    < Card cardText="ultricies mi quis hendrerit" />;
+    <Card cardText="blandit aliquam etiam erat velit" />;
+    <Card cardText="sem viverra aliquet eget sit amet tellus" />;
+    <Card cardText="morbi blandit cursus risus at ultrices" />;
 
 
 
@@ -16,11 +18,11 @@ const App=(props)=>{
 
 
 ReactDOM.render(<Jumbotron
-    title="Welcome to react"
-    description="React is the most popular rendering library in the world"
+    title="Warm Welocome"
+    juboText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a iaculis at. Viverra vitae congue eu consequat ac felis donec."
     buttonLabel="Go to the official website"
     buttonURL="https://reactjs.org/"
 />,<Card />, <NavBar/>, document.querySelector(#myDiv)
-)
+);
 
 export default App;

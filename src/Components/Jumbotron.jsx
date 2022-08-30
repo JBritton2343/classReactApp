@@ -5,7 +5,7 @@ const jumbotron=()=>{
         return (
             <div className="jumbotron m-5">
                 <h1 className="display-4">{props.title}</h1>
-                <p className="lead">{props.description}</p>
+                <p className="lead">{props.jumboText}</p>
                 <a className="btn btn-primary btn-lg" href={props.buttonURL} role="button">
                     {props.buttonLabel}
                 </a>
