@@ -21,7 +21,7 @@ const jumbotron=()=>{
         buttonURL: PropTypes.string,
     };
 
-
+};
 
 
 export default jumbotron;
