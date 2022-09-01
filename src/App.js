@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Jumbotron from "./Components/Jumbotron";
-import Card from "./Components/Card";
-import NavBar from "./Components/NavBar"
+import Jumbotron from "./Components/Jumbotron/Jumbotron";
+import Card from "./Components/Card/Card";
+import NavBar from "./Components/NavBar/NavBar";
 
 const App=(props)=>{
     <NavBar />;
