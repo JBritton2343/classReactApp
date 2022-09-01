@@ -17,12 +17,6 @@ const App=(props)=>{
 }
 
 
-ReactDOM.render(<Jumbotron
-    title="Warm Welcome"
-    juboText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a iaculis at. Viverra vitae congue eu consequat ac felis donec."
-    buttonLabel="Go to the official website"
-    buttonURL="https://reactjs.org/"
-/>,<Card />, <NavBar/>, document.querySelector('#root')
-);
+
 
 export default App;
