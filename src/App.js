@@ -7,12 +7,12 @@ import NavBar from "./Components/NavBar"
 const App=(props)=>{
     <NavBar />;
     <Jumbotron />;
-    <Card cardText="ultricies mi quis hendrerit" />;
-    <Card cardText="blandit aliquam etiam erat velit" />;
-    <Card cardText="sem viverra aliquet eget sit amet tellus" />;
-    <Card cardText="morbi blandit cursus risus at ultrices" />;
-
-
+    <div className="container-fluid d-flex">
+        <Card cardText="ultricies mi quis hendrerit" />;
+        <Card cardText="blandit aliquam etiam erat velit" />;
+        <Card cardText="sem viverra aliquet eget sit amet tellus" />;
+        <Card cardText="morbi blandit cursus risus at ultrices" />;
+    </div>
 
 }
 
