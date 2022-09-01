@@ -20,4 +20,7 @@ const Card = (props) => {
     </div>
   </div>;
 };
+Card.propTypes={
+  cardText: PropTypes.string,
+};
 export default Card;
