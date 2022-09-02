@@ -7,13 +7,13 @@ import NavBar from "./Components/NavBar/NavBar";
 function App() {
   return (
     <div>
-      <NavBar />;
-      <Jumbotron />;
+      <NavBar />
+      <Jumbotron />
       <div className="container-fluid d-flex">
-        <Card cardText="ultricies mi quis hendrerit" />;
-        <Card cardText="blandit aliquam etiam erat velit" />;
-        <Card cardText="sem viverra aliquet eget sit amet tellus" />;
-        <Card cardText="morbi blandit cursus risus at ultrices" />;
+        <Card cardText="ultricies mi quis hendrerit" />
+        <Card cardText="blandit aliquam etiam erat velit" />
+        <Card cardText="sem viverra aliquet eget sit amet tellus" />
+        <Card cardText="morbi blandit cursus risus at ultrices" />
       </div>
     </div>
   );
