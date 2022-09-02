@@ -9,7 +9,7 @@ function App() {
     <div>
       <NavBar />
       <Jumbotron title="Welcome to React" jumboText="A Warm Welcome"/>
-      <div className="container-fluid d-flex">
+      <div className="container-fluid d-flex hstack gap-3">
         <Card cardText="ultricies mi quis hendrerit" />
         <Card cardText="blandit aliquam etiam erat velit" />
         <Card cardText="sem viverra aliquet eget sit amet tellus" />
