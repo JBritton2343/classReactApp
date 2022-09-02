@@ -20,7 +20,7 @@ const jumbotron = () => {
   Jumbotron.propTypes = {
     //proptypes here
     title: PropTypes.string,
-    description: PropTypes.string,
+    jumboText: PropTypes.string,
     buttonLabel: PropTypes.string,
     buttonURL: PropTypes.string,
   };
