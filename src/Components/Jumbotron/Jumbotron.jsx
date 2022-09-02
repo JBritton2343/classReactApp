@@ -17,7 +17,7 @@ const jumbotron = () => {
     );
   };
 
-  Jumbotron.propTypes = {
+  Jumbotron.PropTypes = {
     //proptypes here
     title: PropTypes.string,
     jumboText: PropTypes.string,
