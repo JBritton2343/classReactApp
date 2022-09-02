@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Jumbotron />
+      <Jumbotron title="Welcome to React" jumboText="A Warm Welcome"/>
       <div className="container-fluid d-flex">
         <Card cardText="ultricies mi quis hendrerit" />
         <Card cardText="blandit aliquam etiam erat velit" />
