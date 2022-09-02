@@ -16,14 +16,6 @@ const jumbotron = () => {
       </div>
     );
   };
-
-  Jumbotron.PropTypes = {
-    //proptypes here
-    title: PropTypes.string,
-    jumboText: PropTypes.string,
-    buttonLabel: PropTypes.string,
-    buttonURL: PropTypes.string,
-  };
-};
-
+}
+  
 export default jumbotron;
