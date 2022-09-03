@@ -19,7 +19,7 @@ const NavBar = (props) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div style={{marginLeft: "auto"}} className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav d-flex justify-content-end">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
