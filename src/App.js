@@ -15,6 +15,7 @@ function App() {
         <Card cardText="sem viverra aliquet eget sit amet" />
         <Card cardText="morbi blandit cursus risus at ultrices" />
       </div>
+      <Footer />
     </div>
   );
 }
