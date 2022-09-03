@@ -12,7 +12,7 @@ function App() {
       <div className="container-fluid d-flex hstack gap-3">
         <Card cardText="ultricies mi quis hendrerit" />
         <Card cardText="blandit aliquam etiam erat velit" />
-        <Card cardText="sem viverra aliquet eget sit amet tellus" />
+        <Card cardText="sem viverra aliquet eget sit amet" />
         <Card cardText="morbi blandit cursus risus at ultrices" />
       </div>
     </div>
